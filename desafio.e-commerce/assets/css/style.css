@@ -1,0 +1,17 @@
+.grid-container {display: grid; grid-template-columns: 1fr  1fr 1fr;}
+.grid-container3 {display: grid; grid-template-columns: 1fr  1fr 1fr 1fr; padding-top: 55px; 
+    padding-bottom: 15px; background-color: rgb(174, 191, 247);}
+
+body {display: grid; grid-template-areas: 
+    "navbar navbar navbar "
+    "sidebar productos productos"
+    "footer footer footer "}
+    
+
+nav { grid-area: navbar;}
+aside {grid-area: sidebar;}
+main {grid-area: productos; padding-left: 25px; padding-bottom: 70px;}
+footer {grid-area: footer; }
+
+
+
